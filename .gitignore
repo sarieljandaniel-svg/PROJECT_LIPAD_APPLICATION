@@ -1,4 +1,6 @@
 build/
 dist/
 pycache/
+kahit ano lang/ 
+PROJECT_LIPAD_APPLICATION/
 *.spec
