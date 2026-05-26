@@ -32,7 +32,7 @@ class LipadApp(ctk.CTk):
 
         # Main Navigation Buttons [Message 23, 28]
         tabs = [("Home", "home"), ("Inspection Options", "options"), ("Media Hub", "media"), 
-                ("Analysis", "analysis"), ("Pair", "pair"), ("Reports", "reports")]
+                ("Analysis", "analysis"), ("Air", "air"), ("Reports", "reports")]
         
         for text, name in tabs:
             btn = ctk.CTkButton(self.sidebar, text=text, fg_color="transparent", anchor="w",
