@@ -31,7 +31,7 @@ class LipadApp(ctk.CTk):
         self.logo.pack(pady=(30, 20))
 
         # Main Navigation Buttons [Message 23, 28]
-        tabs = [("Home", "home"), ("Inspection Options", "options"), ("Media Hub", "media"), 
+        tabs = [("Me", "me"), ("Inspection Options", "options"), ("Media Hub", "media"), 
                 ("Analysis", "analysis"), ("Repair", "repair"), ("Reports", "reports")]
         
         for text, name in tabs:
